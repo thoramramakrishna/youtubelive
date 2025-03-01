@@ -2,7 +2,7 @@
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background: url('https://www.facebook.com/photo/?fbid=147838655663007&set=a.104641683316038') no-repeat center center fixed;
+    background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
     margin: 0;
