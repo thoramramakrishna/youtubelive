@@ -2,7 +2,8 @@
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background-color: #181818;
+    background: url('https://www.facebook.com/photo/?fbid=147838655663007&set=a.104641683316038') no-repeat center center fixed;
+    background-size: cover;
     color: white;
     margin: 0;
     padding: 0;
@@ -10,10 +11,11 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #ff0000;
-    padding: 15px;
-    font-size: 24px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 26px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Video Container */
@@ -29,12 +31,12 @@ iframe {
     width: 80%;
     height: 60vh;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
 
 /* Info Section */
 .info {
-    background: #222;
+    background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -42,10 +44,18 @@ iframe {
 
 /* Footer Styling */
 footer {
-    background-color: #121212;
+    background: rgba(0, 0, 0, 0.8);
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
     font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    iframe {
+        width: 90%;
+        height: 50vh;
+    }
 }
